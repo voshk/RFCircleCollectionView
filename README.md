@@ -14,4 +14,4 @@ pod 'RFCircleCollectionViewFlowLayout'
 ```
 
 ##Demo
-![](https://github.com/RFCircleCollectionView/ImageCache/raw/master/Image/demo.gif)  
+![](https://github.com/RFCircleCollectionView/ImageCache/raw/master/RFCircleCollectionView/Image/demo.gif)  
