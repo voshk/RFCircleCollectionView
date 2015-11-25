@@ -14,4 +14,10 @@ pod 'RFCircleCollectionViewFlowLayout'
 ```
 
 ##Demo
-![](https://github.com/refinemobi/RFCircleCollectionView/raw/master/RFCircleCollectionView/Image/demo.gif)  
+![](https://github.com/refinemobi/RFCircleCollectionView/raw/master/RFCircleCollectionView/Image/demo.gif) 
+
+##Contact
+Email:refinemobi@hotmail.com
+
+##Donate
+via Alipay: refinemobi@hotmail.com
