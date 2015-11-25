@@ -1,0 +1,2 @@
+# RFCircleCollectionView
+自定义UICollectionViewFlowLayout ，仿照nice首页，实现左右切换滑动效果
