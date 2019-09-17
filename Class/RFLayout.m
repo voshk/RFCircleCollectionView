@@ -4,12 +4,12 @@
 //
 //  Created by Arvin on 15/11/25.
 //  Copyright © 2015年 mobi.refine. All rights reserved.
-//  https://github.com/sensejump/RFCircleCollectionView
+//  https://github.com/voshk/RFCircleCollectionView
 
 #import "RFLayout.h"
 
 #define ACTIVE_DISTANCE 200
-#define ZOOM_FACTOR 0.1
+#define ZOOM_FACTOR 0.2
 #define kScreen_Height      ([UIScreen mainScreen].bounds.size.height)
 #define kScreen_Width       ([UIScreen mainScreen].bounds.size.width)
 
@@ -22,8 +22,9 @@
     if (self) {
         self.itemSize = CGSizeMake(250, 350);
         self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-        self.minimumLineSpacing = 15;
-        self.sectionInset = UIEdgeInsetsMake(64, 35, 0, 35);
+        self.minimumLineSpacing = 20;
+        self.minimumInteritemSpacing = 20;
+        self.sectionInset = UIEdgeInsetsMake(50, 50, 0, 50);
     }
     return self;
 }
@@ -48,7 +49,7 @@
             
             if (distance < kScreen_Width / 2 + self.itemSize.width) {
                 CGFloat zoom = 1 + ZOOM_FACTOR * (1 - distance / ACTIVE_DISTANCE);
-                attributes.transform3D = CATransform3DMakeScale(zoom, zoom, 1.0);
+                attributes.transform3D = CATransform3DMakeScale(zoom, zoom, 1.5);
                 attributes.transform3D = CATransform3DTranslate(attributes.transform3D, 0 , -zoom * 25, 0);
                 attributes.alpha = zoom - ZOOM_FACTOR;
             }

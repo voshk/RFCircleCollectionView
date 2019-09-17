@@ -5,7 +5,7 @@
 //
 //  Created by Arvin on 15/11/25.
 //  Copyright © 2015年 mobi.refine. All rights reserved.
-//  https://github.com/sensejump/RFCircleCollectionView
+//  https://github.com/voshk/RFCircleCollectionView
 
 #import "RFViewController.h"
 #import "RFCollectionViewCell.h"
@@ -29,12 +29,12 @@ static NSString *RFIdentifier = @"RFIdentifier";
     [self.myCollectionView registerNib:[UINib nibWithNibName:@"RFCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:RFIdentifier];
     self.myCollectionView.collectionViewLayout = [[RFLayout alloc] init];
     self.myCollectionView.backgroundColor = [UIColor clearColor];
-    
+    self.myCollectionView.showsHorizontalScrollIndicator = NO;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 20;
+    return 10;
 }
 
 - (UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -48,14 +48,5 @@ static NSString *RFIdentifier = @"RFIdentifier";
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

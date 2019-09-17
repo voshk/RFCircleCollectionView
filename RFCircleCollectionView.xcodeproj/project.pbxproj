@@ -149,7 +149,7 @@
 				TargetAttributes = {
 					A20DFBF11C058B9A00030996 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = K86QJ2FETG;
+						DevelopmentTeam = EM5VGKG646;
 					};
 				};
 			};
@@ -158,6 +158,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = EM5VGKG646;
 				INFOPLIST_FILE = RFCircleCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobi.refine.RFCircleCollectionView;
@@ -314,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = EM5VGKG646;
 				INFOPLIST_FILE = RFCircleCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobi.refine.RFCircleCollectionView;
@@ -340,6 +343,7 @@
 				A20DFC0B1C058B9A00030996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

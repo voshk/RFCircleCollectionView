@@ -4,7 +4,7 @@
 //
 //  Created by Arvin on 15/11/25.
 //  Copyright © 2015年 mobi.refine. All rights reserved.
-//  https://github.com/sensejump/RFCircleCollectionView
+//  https://github.com/voshk/RFCircleCollectionView
 
 #import "AppDelegate.h"
 #import "RFViewController.h"
