@@ -1,8 +1,7 @@
 # RFCircleCollectionView
 ## General
-自定义UICollectionViewFlowLayout ，仿照nice首页，实现左右切换滑动效果
+Custom UICollectionViewFlowLayout ，seems like nice app.
 
-动画优雅、实现方式简单
 ## Installation
 ## With CocoaPods
 In your Podfile:
